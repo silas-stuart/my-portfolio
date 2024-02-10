@@ -1,0 +1,104 @@
+body{
+    font-family: "Single Day", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+
+/* Header elements */
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: whitesmoke;
+}
+
+#navbar a{
+    color: whitesmoke;
+    background-color: black;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+#navbar a:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+hr{
+    border: 0.1px solid rgb(231, 231, 231);
+}
+
+header img{
+    width: 100px;
+    height: 100px;
+}
+
+/* main section elements */
+#main-section{
+    margin: 0 auto;
+    width: 50%;
+    font-size: 2rem;
+}
+
+#welcome-section{
+    transition: 0.2s;
+    padding: 20px;
+    margin-top: 140px;
+}
+
+#welcome-section:hover{
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+.project-title img{
+    width: 250px;
+    height: 250px;
+}
+
+#projects{
+    padding: 20px;
+    text-align: center;
+}
+
+#projectsheader{
+    padding: 20px;
+}
+
+#projects a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    transition: 0.5s,
+}
+
+#projects a:hover{
+    background-color: white;
+    color: black;
+}
+
+.project-title{
+    padding: 40px;
+}
+
+article button{
+    width: 100%;
+}
+
+@media (max-width: 600px){
+    body{
+        background-color: black;
+        color: white;
+    }
+
+    header{
+        color: black;
+    }
+}
