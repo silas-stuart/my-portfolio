@@ -6,27 +6,27 @@ body{
 }
 
 /* Header elements */
+#silas-header{
+    text-align: center;
+}
 header{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    position: fixed;
-    top: 0;
     background-color: whitesmoke;
 }
 
 #navbar a{
-    color: whitesmoke;
-    background-color: black;
+    color: black;
     text-decoration: none;
     padding: 10px;
     transition: 0.5s;
 }
 
 #navbar a:hover{
-    background-color: whitesmoke;
-    color: black;
+    background-color: black;
+    color: whitesmoke;
 }
 
 hr{
@@ -34,8 +34,8 @@ hr{
 }
 
 header img{
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 120px;
 }
 
 /* main section elements */
@@ -47,8 +47,6 @@ header img{
 
 #welcome-section{
     transition: 0.2s;
-    padding: 20px;
-    margin-top: 140px;
 }
 
 #welcome-section:hover{
@@ -61,15 +59,19 @@ header img{
     width: 250px;
     height: 250px;
 }
-
+.project-title {
+    text-align: left;
+}
 #projects{
-    padding: 20px;
     text-align: center;
 }
 
-#projectsheader{
-    padding: 20px;
+.projects-sect:hover{
+    width: auto;
+    height: auto;
+    transition: 2s;
 }
+
 
 #projects a{
     text-decoration: none;
@@ -91,6 +93,9 @@ header img{
 article button{
     width: 100%;
 }
+label{
+    margin-left: 0;
+}
 
 @media (max-width: 600px){
     body{
@@ -101,4 +106,12 @@ article button{
     header{
         color: black;
     }
+}
+
+#about-me {
+    padding: 0;
+}
+
+#silas {
+    border-radius: 50%;
 }
